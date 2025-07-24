@@ -1,16 +1,30 @@
 # Secure Sight Dashboard
 
-A dashboard for monitoring cameras and managing security incidents. Built using **Next.js**, **Prisma**, and **SQLite**.
+A security incident management dashboard built with **Next.js**, **Prisma**, and **SQLite**.  
+This project provides a UI to view incidents, mark them as resolved, and fetch camera feeds.
 
 ---
 
-## ✅ Features
-- View all cameras and their status
-- Display list of incidents (Resolved/Unresolved)
-- Update incident status via API
-- Database using Prisma ORM with SQLite
-- TailwindCSS for styling
+## 🚀 Features
+- View all security incidents
+- Mark incidents as **Resolved**
+- View camera details
+- API endpoints for incidents and cameras
+- Seeded database for quick demo
 
 ---
 
-## 📂 Project Structure
+## 🛠 Tech Stack
+- **Next.js 15**
+- **Prisma ORM**
+- **SQLite** (local database)
+- **TypeScript**
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Saichandra01/secure-sight-dashboard.git
+cd secure-sight-dashboard
